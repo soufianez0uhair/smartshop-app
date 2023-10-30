@@ -1,13 +1,14 @@
 import React from 'react'
 
-const SplitScreen = () => {
+const SplitScreen = ({children, leftSize, rightSize}) => {
+  const [Left, Right] = children;
   return (
     <div className="flex">
-      <div className="bg-red h-100 basis-3/5">
-        
+      <div className={`bg-red basis-${leftSize}`}>
+        {Left}
       </div>
-      <div className="h-20 basis-2/5">
-
+      <div className={`h-20 basis-${rightSize}`}>
+        {Right}
       </div>
     </div>
   )
