@@ -4,19 +4,19 @@ const HeaderMenu = () => {
   return (
     <ul className="flex gap-14 text-2xl">
       <li>
-        <a to="/">Home</a>
+        <a href="/">Home</a>
       </li>
       <li>
-        <a to="/contact">Contact</a>
+        <a href="/contact">Contact</a>
       </li>
       <li>
-        <a to="/about">About</a>
+        <a href="/about">About</a>
       </li>
       <li>
-        <a to="/signup">Sign Up</a>
+        <a href="/register">Sign Up</a>
       </li>
       <li>
-        <a to="/login">Log In</a>
+        <a href="/login">Log In</a>
       </li>
     </ul>
   )

@@ -10,7 +10,8 @@ export default {
         primary1: "#363738",
         secondary1: "#FEFAF1",
         text: "#FAFAFA",
-        secondary: "#F5F5F5"
+        secondary: "#F5F5F5",
+        button2: "#DB4444"
       }
     },
   },
