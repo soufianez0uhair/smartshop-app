@@ -1,5 +1,3 @@
-import React from 'react'
-
 const HeaderBanner = () => {
   return (
     <header className='text-[1.2rem] py-4 bg-black text-white flex gap-2 justify-center'>

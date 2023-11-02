@@ -1,5 +1,3 @@
-import React from 'react'
-
 const SplitScreen = ({children, leftSize, rightSize}) => {
   const [Left, Right] = children;
   return (
