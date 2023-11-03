@@ -1,6 +1,3 @@
-import React from 'react'
-import SplitScreen from '../layout/SplitScreen'
-import AuthImg from '../assets/auth.jpg'
 import RegisterCustomerForm from '../components/Register/RegisterCustomerForm'
 
 const Register = () => {

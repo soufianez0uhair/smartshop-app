@@ -1,5 +1,3 @@
-import React from 'react'
-
 const HeaderMenu = () => {
   return (
     <ul className="flex gap-14 text-2xl">

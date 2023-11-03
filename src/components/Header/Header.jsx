@@ -1,4 +1,3 @@
-import React from 'react'
 import HeaderBanner from './HeaderBanner'
 import HeaderMenu from './HeaderMenu'
 import HeaderSearchForm from './HeaderSearchForm'
